@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+}
+
+.puzzle {
+    display: inline-block;
+    width: 50%;
+}
+
+.puzzle > div > img {
+    width: 22%;
+}
+
+.dragging { border: 3px solid darkgrey; background-color: darkgrey; }
+
+.notDragging { border: 3px solid black; background-color: black; }
+
+.original {
+    display: inline-block;
+    width: 46%;
+    border: 3px solid black;
+}
